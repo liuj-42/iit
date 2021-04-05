@@ -5,7 +5,16 @@
     <title>Lab 3 website</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link href="pages/styles.css" rel="stylesheet">
-    
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type = "text/javascript" src = "index.js"></script> 
+    <script>
+    $( function() {
+      $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+      $( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+    } );
+    </script>
   </head>
 
   <body>
@@ -13,9 +22,25 @@
     <header><a href="index.html" class = "active">Home</a> <a href="pages/projects.html">Intro to ITWS labs</a> <a href="pages/links.html">Frequently used links</a></header>
     <div id="page-wrap" id = "bg">
       <h1>Home Page</h1>
-      <p>Welcome to this website</p>
-      <p>Click on <a href = "pages/projects.html">here</a> to view my labs</p>
-      <p>Click on <a href = "pages/links.html">here</a> to go to my frequently used links</p>
+      <div id="tabs">
+        <ul>
+          <li><a href="#tabs-1">Website description</a></li>
+          <li><a href="#tabs-2">Lab navigation</a></li>
+          <li><a href="#tabs-3">Frequently used links</a></li>
+        </ul>
+        <div id="tabs-1">
+          <h2>Website description</h2>
+          <p>This is my personal website, which I will update with my labs for intro to itws</p>
+        </div>
+        <div id="tabs-2">
+          <h2>Labs</h2>
+          <p>This link will bring you a page that contains a description and links to all of the labs that I have currently completed, which are due by the end of day roughly every thursday.</br> <a href = "pages/projects.html">link</a></p>
+        </div>
+        <div id="tabs-3">
+          <h2>Frequently used links</h2>
+          <p>This link will bring you to a page of links that I use often.</br> <a href = "pages/links.html">link</a></p>
+        </div>
+      </div>
     </div>
     <footer><a href = "mailto:liuxjames88@gmail.com">James Liu</a><span class = "padding">    </span><a href=#>781 850 6242</a><span class = "padding">    </span><a href="pages/sitemap.html">Sitemap</a></footer>
   </div>
