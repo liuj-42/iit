@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+	<title>Lab 4 Atom Feed</title>
+	<subtitle>This Atom feed contains recent updates to some things that I follow</subtitle>
+	<link href="https://afsws.rpi.edu/AFS/home/94/liuj42/public_html/lab%203/iit/" rel="self" />
+	<link href="https://afsws.rpi.edu/AFS/home/94/liuj42/public_html/lab%203/iit/" />
+	<id>urn:uuid:60a76c80-d399-11d9-b91C-0003939e0af6</id>
+	<updated>2021-03-01T07:11:02Z</updated>
+	<author>
+		<name>James Liu</name>
+		<email>liuxjames88@gmail.com</email>
+	</author>
+ 
+	<entry>
+		<title>League of Legends Patch 11.4 Notes</title>
+		<link href="https://na.leagueoflegends.com/en-us/news/game-updates/patch-11-4-notes/" />
+		<id>https://na.leagueoflegends.com/en-us/news/game-updates/patch-11-4-notes#18e55671-5bbe-44bf-b960-aaf639550514</id>
+		<updated>2021-03-01T09:30:00Z</updated>
+		<summary>Information about the most recent patch for League of Legends.</summary>
+	</entry>
+	<entry>
+		<title>Osu Changelog</title>
+		<link href="https://osu.ppy.sh/home/changelog" />
+		<id>https://osu.ppy.sh/home/changelog#90954519-5576-4235-b122-d24e5ae977e0</id>
+		<updated>2021-02-26T12:00:00Z</updated>
+		<summary>Information about the most recent patch for Osu.</summary>
+	</entry>
+	<entry>
+		<title>Shingeki no Kyojin: The Final Season #12</title>
+		<link href="https://www.livechart.me/anime/9491" />
+		<id>https://www.livechart.me/anime/9491#28f01cad-e5eb-4177-8ddb-4d5ff298cfc5</id>
+		<updated>2021-02-28T15:10:00Z</updated>
+		<summary>Information about the most recent episode of a show that has been airing.</summary>
+	</entry>
+	<entry>
+		<title>Warframe Patch notes</title>
+		<link href="https://forums.warframe.com/topic/1250638-octavia-prime-hotfix-2991/" />
+		<id>https://forums.warframe.com/topic/1250638-octavia-prime-hotfix-2991/#9bf48575-4ba9-4ee6-b4a5-52184fa73a7d</id>
+		<updated>2021-02-24T09:30:00Z</updated>
+		<summary>Information about the most recent patch for Warframe.</summary>
+	</entry>
+	<entry>
+		<title>Data Structures Homework</title>
+		<link href="https://www.cs.rpi.edu/academics/courses/spring21/csci1200/hw/04_dvd_lists/hw.pdf" />
+		<id>https://www.cs.rpi.edu/academics/courses/spring21/csci1200/hw/04_dvd_lists/hw.pdf#df15fdd5-7c84-41e0-8ca7-d882bb61b16f</id>
+		<updated>2021-02-26T13:48:00Z</updated>
+		<summary>Most recent data structures homework.</summary>
+	</entry>
+</feed>
+
+
+

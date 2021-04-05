@@ -1,0 +1,139 @@
+/* Lab 5 CSS File 
+   Did you notice that CSS comments are the same as 
+   multi-line javascript comments? */
+  
+    /* body {
+    font-family: Arial, Helvetica, sans-serif; 
+  } */
+  * { 
+    color:#ccc;
+}
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2e3440;
+    background-image: url("../images/bg2.png");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: 35%;
+}
+.padding {
+    padding:1%;
+    font-size: 20px;
+  }
+  footer {
+    border: 1px groove black;
+    background: #475768;
+    color: White;
+    padding: 0;
+    height: 35px;
+    text-align: center;
+    line-height: normal;
+    margin: 0;
+    position: fixed;
+    font-size:20px;
+    bottom: 10px;
+    width: 40%;
+    margin-left:30%;
+  }
+  /* for links */
+  footer a {
+    font-size:24px;
+    
+  }
+  footer a:hover {
+    background-color: #ccc;
+  }
+  /* highlights the active page */
+  footer a.active {
+    background-color: #d8dee9;
+    color: #535353;
+  }
+  header {
+    border: 1px groove black;
+    background: #475768;
+    color: White;
+    padding: 0;
+    text-align: center;
+    line-height: normal;
+    margin: 0;
+    padding: 1% 0% 1% 0%;
+    position:bottom;
+    font-size:20px;
+    font-family:'jetbrains mono', monospace;
+    top: 10px;
+    width: 40%;
+    margin-left:30%;
+  }
+    
+  header a {
+    background-color: #475768;
+    color: darkgrey;
+  }
+    
+  header a:hover {
+    background-color: #ccc;
+  }
+    
+  header a.active {
+    background-color: #d8dee9;
+    color: #535353;
+  }
+  /* id for increasing the margins */
+  #page-wrap { 
+      width: 30%; 
+      margin: 40px auto 60px; 
+  }
+  a { 
+    color: #d8dee9; 
+    text-decoration: none; 
+    border-bottom: 1px dotted #999; 
+}
+a:hover { 
+    border-bottom-style: solid; 
+    color: #999; 
+}
+
+  #bodyBlock {
+    width: 700px;
+    margin: auto;
+  }
+  #output {
+    margin: 1em 0;
+    color: black;
+    background-color: #fee;
+    padding: 1em;
+    border: 1px solid #ddd;
+  }
+  fieldset {
+    padding-top: 1em; 
+  }
+  .field {
+    width: 120px;
+    margin: 0 0.5em 0.5em 0;
+    float: left;
+    clear: left;
+    text-align: right;
+  }
+  .value {
+    margin: 0 0 0.5em 0;
+  }
+  input {
+    color:#2e3440;
+  }
+  textarea {
+    color:#2e3440;
+  }
+  button {
+    color:#2e3440;
+  }
+  #save {
+    float: right;
+  }
+  textarea:focus {
+    border: 2px solid rgb(122, 165, 243);
+    background-color: #fee;
+  }
+  input:focus {
+    border: 2px solid rgb(122, 165, 243);
+    background-color: #fee;
+  }

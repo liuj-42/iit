@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Lab 5</title>    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>    
+    <link href="lab5.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="lab5.js"></script>
+  </head>
+  <body onload="focusFirstName(this)">
+    <div id="bodyBlock">
+      <h1>Intro to IT - Lab 5</h1>
+      <h2>James Liu</h2>
+      
+      <form id="addForm" name="addForm" action="#" method="post" onsubmit="return validate(this);">
+        <fieldset> 
+          <legend>Contact Information</legend>
+          <div class="formData">
+                          <!-- on focus, see if the field has the default text or not. if it does, clear it
+                            when losing focus, test to see if the form is empty or not -->
+            <label class="field" for="firstName">First Name:</label>
+            <div class="value"><input type="text" size="60" value="First name" name="firstName" id="firstName" onfocus="focusIn(id, 'First name')" onblur = "focusOut(id, 'First name')"/></div>
+            
+            <label class="field" for="lastName">Last Name:</label>
+            <div class="value"><input type="text" size="60" value="Last name" name="lastName" id="lastName"  onfocus="focusIn(id, 'Last name')" onblur = "focusOut(id, 'Last name')"/></div>
+            
+            <label class="field" for="title">Title:</label>
+            <div class="value"><input type="text" size="60" value="Title" name="title" id="title"  onfocus="focusIn(id, 'Title')" onblur = "focusOut(id, 'Title')"/></div>
+            
+            <label class="field" for="org">Organization:</label>
+            <div class="value"><input type="text" size="60" value="Organization" name="org" id="org" onfocus="focusIn(id, 'Organization')" onblur = "focusOut(id, 'Organization')"/></div>
+            
+            <label class="field" for="pseudonym">Nickname:</label>
+            <div class="value"><input type="text" size="60" value="Nickname" name="pseudonym" id="pseudonym"  onfocus="focusIn(id, 'Nickname')" onblur = "focusOut(id, 'Nickname')"></div>
+            
+            <label class="field" for="comments">Comments:</label>
+            <!-- <div class="value"><textarea rows="4" cols="40" name="comments" id="comments">Please enter your comments</textarea></div> -->
+                                                                                     <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+            <div class="value"><textarea rows="4" cols="40" name="comments" id="comments" onfocus="focusIn(id, 'Please enter your comments')" onblur = "focusOut(id, 'Please enter your comments')">Please enter your comments</textarea></div>
+            <input type="submit" value="save" id="save" name="save" onclick = "return validate(this)"/>
+
+          </div>
+        </fieldset>
+      </form>
+      <button onclick="clickme()">click me</button>
+    </div>
+  </body>
+</html>

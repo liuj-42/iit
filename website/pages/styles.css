@@ -1,0 +1,119 @@
+
+/* importing jetbrains mono and roboto fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+/* seting the background color to grey and the font family to roboto */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2e3440;
+    background-image: url("images/bg2.png");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: 35%;
+}
+/* set default text color to white(ish) */
+* { 
+    color:#ccc;
+}
+.padding {
+  padding:1%;
+  font-size: 20px;
+}
+/* making the styles for the footer */
+footer {
+  border: 1px groove black;
+  background: #475768;
+  color: White;
+  padding: 0;
+  height: 35px;
+  text-align: center;
+  line-height: normal;
+  margin: 0;
+  position: fixed;
+  font-size:20px;
+  bottom: 10px;
+  width: 40%;
+  margin-left:30%;
+}
+/* for links */
+footer a {
+  font-size:24px;
+  
+}
+footer a:hover {
+  background-color: #ccc;
+}
+/* highlights the active page */
+footer a.active {
+  background-color: #d8dee9;
+  color: #535353;
+}
+/* stylizing the header (like the footer) */
+header {
+  
+  border: 1px groove black;
+  background: #475768;
+  color: White;
+  padding: 0;
+  text-align: center;
+  line-height: normal;
+  margin: 0;
+  padding: 1% 0% 1% 0%;
+  position:bottom;
+  font-size:20px;
+  font-family:'jetbrains mono', monospace;
+  top: 10px;
+  width: 40%;
+  margin-left:30%;
+}
+  
+header a {
+  background-color: #475768;
+  color: darkgrey;
+}
+  
+header a:hover {
+  background-color: #ccc;
+}
+  
+header a.active {
+  background-color: #d8dee9;
+  color: #535353;
+}
+/* id for increasing the margins */
+#page-wrap { 
+    width: 30%; 
+    margin: auto; 
+}
+h1 {
+    color: #d8dee9;
+}
+/* links */
+a { 
+    color: #d8dee9; 
+    text-decoration: none; 
+    border-bottom: 1px dotted #999; 
+}
+a:hover { 
+    border-bottom-style: solid; 
+    color: #999; 
+}
+
+ul {
+    color: #4c566a;
+}
+.menu {
+    font-family: 'Jetbrains Mono', monospace;
+    color: #e5e9f0;
+    font-size: 16px;
+}
+ul.square {
+  list-style-type:square;
+}
+li.none {
+  list-style-type:none;
+}
+#bottom {
+  position:bottom;
+}

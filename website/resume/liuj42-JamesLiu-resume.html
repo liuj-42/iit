@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!-- page title -->
+    <title>Resume</title>
+
+    <style type="text/css">
+     /* this adds margin:0, padding:0, and the specific color to all elements below */
+        * { 
+            margin: 0; 
+            padding: 0; 
+            color: #4c566a;
+        }
+        /* font(s), font size, bg image */
+        body { 
+            font: 16px Helvetica, Sans-Serif; 
+            line-height: 24px; 
+            background: url("images/noise.jpg"); 
+        }
+        /* for making spaces in between secitons */
+        .clear { 
+            clear: both; 
+        }
+        /* word wrap */
+        #page-wrap { 
+            width: 800px; 
+            margin: 40px auto 60px; 
+        }
+        /* name */
+        h1 { 
+            margin: 0 0 16px 0; 
+            padding: 0 0 16px 0; 
+            font-size: 42px; 
+            font-weight: bold; 
+            letter-spacing: -2px; 
+            border-bottom: 1px solid #999; 
+            color: #2c496d;
+        }
+        /* names of activites */
+        h2 { 
+            font-size: 20px; 
+            margin: 0 0 6px 0; 
+            position: relative; 
+            color: #3f6c99;
+        }
+        /* things to the right of activities (dates) */
+        h2 span { 
+            position: absolute; 
+            bottom: 0; 
+            right: 0; 
+            font-style: italic; 
+            font-family: Georgia, Serif; 
+            font-size: 16px; 
+            color: #88c0d0;
+            font-weight: normal; 
+        }
+        /* school name */
+        h3 { 
+            font-size: 20px; 
+            margin: 0 0 0px 0; 
+            color: #3f6c99;
+        }
+        /* indent */
+        p.indent {
+            margin: 0 0 16px 0;
+        }
+        /* changing color for hyperlinks */
+        a { 
+            color: #999; 
+            text-decoration: none; 
+            border-bottom: 1px dotted #999; 
+        }
+        /* changing color on hover */
+        a:hover { 
+            border-bottom-style: solid; 
+            color: black; 
+        }
+        /* bullet points */
+        ul { 
+            margin: 0 0 32px 17px; 
+        }
+        /* text on the left */
+        dt { 
+            font-style: italic; 
+            font-weight: bold; 
+            font-size: 18px; 
+            text-align: right; 
+            padding: 0 26px 0 0; 
+            width: 150px; 
+            float: left;
+            color: #5e81ac; 
+        }
+        dd { 
+            width: 600px; 
+            float: right; 
+        }
+        /* adding space */
+        dd.clear { 
+            float: none; 
+            margin: 0; 
+            height: 15px; 
+        }
+        /* adding some indentation for the address so it lines up */
+        span.address { 
+            margin-left: 70px;
+            text-indent:8.5%;
+        }
+        /* doesnt work for things inside lists?
+        .unindent {
+            text-indent:-20%;
+        } */
+     </style>
+</head>
+
+<body>
+
+    <div id="page-wrap">
+    
+        <div id="contact-info">
+        <!-- name and contact info -->
+            <h1 class="fn">James Liu</h1>
+        
+            <p>
+                Cell: <span>781-850-6242</span><br />
+                Email: <a class="email" href="mailto:liuxjames88@gmail.com">liuxjames88@gmail.com</a> <br/>
+                Address: 46 Salem Street <br/> <span class = "address"> Winchester</span> <br/> <span class = "address"> Massachusetts 01890</span>
+            </p>
+        </div>
+                
+        
+        <div class="clear"></div>
+        
+        <dl>
+            <dd class="clear"></dd>
+            <!-- Education (school, majors, grades) -->
+            <dt>Education</dt>
+            <dd>
+                <h3>Rensselaer Polytechnic Institute</h3> Troy, New York
+                <p><strong>Major:</strong> Computer Science<br/></p>
+                <p><strong>Major:</strong> Information Technology &amp; Web Sciences</p>
+                <p><strong>Culmulative GPA:</strong> 3.83</p>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <!-- job experience/ -->
+            <dt>Experience</dt>
+            <dd>
+                <h2>Waves Learning Festival<span> Student | 2020 </span> </h2>
+                <ul>
+                    <li> Underwent a month-long course on Python <br/>
+                    <em> Accomplishment: </em></li>
+                    <li>Completed 3 projects on JetBrains Academy, answered over 230 problems and completed 56 topics.</li>
+                </ul>
+
+                <h2>Burger King<span> Crew Member | 2019-2020</span></h2>
+                <ul>
+                    <li> Processed orders at the registers for both drive through and dine-in, bagged orders, cleaned the floor, tables, and restrooms.  <br/>
+                    <em>Accomplishment:</em></li>
+                    <li>Offered a promotion from the General Manager</li>
+
+                </ul>
+
+                <h2>Stop and Shop<span> Cashier | 2019</span></h2>
+                <ul>
+                    <li>Managed my own register, cashed checks, processed and offered coupons, and helped bag people's groceries.</li>
+                </ul>
+
+                <h2>Computer Science Principles<span>Student | 2018-2019</span></h2>
+                <ul>
+                    <li>Took a college-level programming course in my senior year of high school. <br/>
+                    <em>Accomplishment:</em></li>
+                    <li>Achieved a score of 4/5 on the AP Computer Science Principles test.</li>
+                </ul>
+                
+            </dd>
+            
+            <dd class="clear"></dd>
+            <!-- community service -->
+            <dt>Community Service</dt>
+            <dd>
+                <ul>
+                    <li>
+                        Lead my Boy Scout troop to clean up and dispose of trash for town fairs every year for 5 years (2011-2020)
+                    </li>
+                    <li>
+                        Ran a station to greet people and to track payments at a fundraiser for ALS (2017-2020)
+                    </li>
+                    <li>
+                        Planted flags and flowers for veterans at a cementery the weekend before Memorial Day (2016-2020)
+                    </li>
+                    <li>
+                        Managed a water station and set up the table, filled water cups, and distributed them to runners as they passed by (2017-2020)
+                    </li>
+                </ul>
+            </dd>
+
+            <dd class = "clear"></dd>
+
+            <!-- awards -->
+            <dt>Awards <br/>&amp; Accomplishments</dt>
+            <dd> 
+
+                <h2>Eagle Scout <span>Awarded 4/2/2020</span></h2>
+                <ul>
+                    <li>Completed 28 Merit Badges, completed an Eagle Scout Project, underwent and passed the Eagle Scout Board of Review.</li>
+                </ul>
+                
+                <h2>Order of the Arrow <span> 2018-present</span></h2>
+                <ul>
+                    <li>Elected by fellow Boy Scouts in my Troop to undergo an Ordeal to be admitted to the Order of the Arrow.</li>
+                </ul>
+                <h2>National Honor Society <span>2019-2020</span></h2>
+                <ul>
+                    <li>Achieved and maintained a culmulative GPA of over 3.60.</li>
+                </ul>
+                <h2>Tri-M Music Honor Society<span>2019-2020</span></h2>
+                <ul>
+                    <li>Admitted into an honors society which focuses on creating future leaders in music education and music advocacy.</li>
+                </ul>
+                
+            
+            </dd>
+
+            <dd class="clear"></dd>
+            <!-- misc skills -->
+            <dt>Skills</dt>
+            <dd>
+                <h2>Language</h2>
+                <p class = "indent">Fluency in English, conversational Mandarin.</p>
+                
+                <h2>Computer skills</h2>
+                <p class = "indent">Technically proficient in MS Suite, Sony Vegas Pro 17, Adobe Photoshop <br/>
+                Knowledge of programming in Python, C++, Java, Javascript, HTML, and CSS<br/>
+                Typing: 117 wpm</p>
+            </dd>
+        </dl>
+        
+        <div class="clear"></div>
+    
+    </div>
+
+</body>
+
+</html>
