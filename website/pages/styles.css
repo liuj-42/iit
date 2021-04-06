@@ -144,5 +144,11 @@ li.none {
 .ui-tabs-vertical .ui-tabs-panel { 
   padding: 1em; 
   float: left; 
-  width: 20em;
+  width: 80%;
+}
+#toggleText:hover {
+  cursor:pointer;
+}
+button {
+  color:black;
 }

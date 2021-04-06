@@ -5,16 +5,9 @@
     <title>Lab 3 website</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link href="pages/styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script type = "text/javascript" src = "index.js"></script> 
-    <script>
-    $( function() {
-      $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
-      $( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
-    } );
-    </script>
   </head>
 
   <body>
@@ -23,6 +16,7 @@
     <div id="page-wrap" id = "bg">
       <h1>Home Page</h1>
       <div id="tabs">
+        <button id = "hideLinks">Hide Links</button> <button id = "showLinks">Show Links</button> </br>
         <ul>
           <li><a href="#tabs-1">Website description</a></li>
           <li><a href="#tabs-2">Lab navigation</a></li>
@@ -34,11 +28,11 @@
         </div>
         <div id="tabs-2">
           <h2>Labs</h2>
-          <p>This link will bring you a page that contains a description and links to all of the labs that I have currently completed, which are due by the end of day roughly every thursday.</br> <a href = "pages/projects.html">link</a></p>
+          <p">This link will bring you a page that contains a description and links to all of the labs that I have currently completed, which are due by the end of day roughly every thursday.</br> <a class = "toggle" href = "pages/projects.html">link</a></p>
         </div>
         <div id="tabs-3">
           <h2>Frequently used links</h2>
-          <p>This link will bring you to a page of links that I use often.</br> <a href = "pages/links.html">link</a></p>
+          <p>This link will bring you to a page of links that I use often.</br> <a class = "toggle" href = "pages/links.html">link</a></p>
         </div>
       </div>
     </div>
