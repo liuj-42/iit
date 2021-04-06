@@ -9,3 +9,7 @@ some things about the quiz:
 	I also created the mockup before I added jQuery to the site, so my future planned next steps were what I added with jQuery.
 
 	For question 5a, I assumed that I only needed to provide 3 combined examples of URIs and URLs.
+
+	In my iit directory, I have 2 subfolders - website, and not website. They are pretty self-explnatory. Everything inside the website subfolder pertains to the website, while everything in the not website folder is not used in the website - things like case studies and quizzes.
+
+Not sure if this is necessary or not, but here is the link to my (updated) website - https://afsws.rpi.edu/AFS/home/94/liuj42/public_html/lab%203/iit/
