@@ -14,3 +14,5 @@ readme for the quiz and this repository
 **There are now buttons that will let the user show/hide links, and they will shake if the links are already hidden/shown and the user tries pressing the button again**
 
 For the usage of the jQuery widgets (tab, accordion) I used https://jqueryui.com/, specifically https://jqueryui.com/tabs/#vertical and https://jqueryui.com/accordion/ to base my code off of.
+
+Not sure if this is necessary or not, but here is the link to my (updated) website - https://afsws.rpi.edu/AFS/home/94/liuj42/public_html/lab%203/iit/
