@@ -4,9 +4,18 @@ $( function() {
 } );
 $(document).ready(function() {
     $('#hideLinks').click(function(e){
-        $('.toggle').hide('medium');
+        if ($('.toggle').is(':visible')) {
+            $('.toggle').hide('medium');
+        } else {
+            $('#hideLinks').effect("shake");
+        }
     });
     $('#showLinks').click(function(e){
-        $('.toggle').show('medium');
+        if (!$('.toggle').is(':visible')) {
+            $('.toggle').show('medium');
+        } else {
+            $('#showLinks').effect("shake");
+        }
+        
     });
 });
