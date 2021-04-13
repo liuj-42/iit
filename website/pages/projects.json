@@ -1,0 +1,53 @@
+{
+    "MenuTitle": "Labs Navigation",
+    "MenuItem": [
+        {
+            "menuName":"Lab 1",
+            "menuTopic":"Networking",
+            "menuDesc":"The purpose of this lab is to get me familiar with some basic networking concepts, protocols, and tools.",
+            "menuURL":"projects/ITWS1100-S21-W1C2-Lab1-Networking-rev20210128.docx"
+        },
+        {
+            "menuName":"Lab 2",
+            "menuTopic":"Resume",
+            "menuDesc":"The purpose of this lab is to get me familiar with html and css, and to make and maintain a resume.",
+            "menuURL":"projects/lab2.html"
+        },
+        {
+            "menuName":"Lab 3",
+            "menuTopic":"Website",
+            "menuDesc":"The purpose of this lab is to let me show off what I've learned with html and css, while creating a website that will hold my curent and future labs.",
+            "menuURL":"../index.html"
+        },
+        {
+            "menuName":"Lab 4",
+            "menuTopic":"RSS/Atom",
+            "menuDesc":"The purpose of this lab is to get me familiar with xml.",
+            "menuURL":"projects/lab4.html"
+        },
+        {
+            "menuName":"Lab 5",
+            "menuTopic":"Javascript",
+            "menuDesc":"The purpose of this lab is to get me familiar with javascript and integrating it with html.",
+            "menuURL":"projects/lab5.html"
+        },
+        {
+            "menuName":"Lab 6",
+            "menuTopic":"JQuery",
+            "menuDesc":"The purpose of this lab is to get me familiar with JQuery functions.",
+            "menuURL":"projects/lab6.html"
+        },
+        {
+            "menuName":"Lab 7",
+            "menuTopic":"Balsalmiq",
+            "menuDesc":"The purpose of this lab (wasn't really a lab) was to get me familiar with balsalmiq, a tool used for creating paper prototypes",
+            "menuURL":"projects/lab6.html"
+        },
+        {
+            "menuName":"Lab 8",
+            "menuTopic":"XML",
+            "menuDesc":"The purpose of this lab is to get me familiar with the XAMPP stack and also injecting javascript into forms",
+            "menuURL":"projects/lab8/lab8.html"
+        }
+    ]
+}
