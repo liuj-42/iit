@@ -1,14 +1,34 @@
-{
+{   "MenuTitle": "Labs Page",
     "menuItem": [
+        {
+            "menuName": "Lab 1",
+            "menuDesc": "Network & Protocols",
+            "menuURL": "ITWS_Labs/Lab01/Lab_1.html"
+        },
         {
             "menuName": "Lab 2",
             "menuDesc": "Resume",
-            "menuURL": "lab2resume.html"
+            "menuURL": "ITWS_Labs/Lab02/Lab_2.html"
         },
         {
             "menuName": "Lab 3",
             "menuDesc": "Website",
             "menuURL": "../index.html"
+        },
+        {
+            "menuName": "Lab 4",
+            "menuDesc": "XML",
+            "menuURL": "ITWS_Labs/Lab04/Lab_4.html"
+        },
+        {
+            "menuName": "Lab 5",
+            "menuDesc": "JavaScript",
+            "menuURL": "ITWS_Labs/Lab05/Lab_5.html"
+        },
+        {
+            "menuName": "Lab 6",
+            "menuDesc": " jquery",
+            "menuURL": "ITWS_Labs/Lab06/Lab_6_page.html"
         }
     ]
 }
