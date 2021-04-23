@@ -30,7 +30,7 @@
 
 ?>
 
-<h3>Actors</h3>
+<h3>Movies</h3>
 <table id="actorTable">
 <?php
   if ($dbOk) {

@@ -26,8 +26,12 @@ insert into `movie_actors` VALUES
 (2, 15),
 (3, 14),
 (4, 13);
- 
 
+---command used to create the relationship table
+-- SELECT movies.title, actors.last_name, actors.first_names
+	-- FROM movies, actors, movie_actors
+	-- WHERE movie_actors.movieid = movies.movieid
+		-- AND movie_actors.actorid = actors.actorid
 
 
 ---part 4
